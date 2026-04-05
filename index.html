@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Erlin's Cafe</title>
+<style>
+	@font-face {
+       font-family: "Bold";
+       src: url("CaviarDreams_Bold.ttf");
+    }
+	
+    @font-face {
+       font-family: "Normal";
+       src: url("CaviarDreams.ttf");
+    }
+
+	body{
+	  margin:0;
+	  padding:0;
+	  background-color: rgba(255, 230, 200, 1);
+	}
+	
+	h1{
+	 font-family: "Bold";
+	 font-size: 20px;
+	}
+	
+	h2{
+	 font-family: "Bold";
+	 font-size: 16px;
+	}
+	
+	h3{
+	 font-family: "Bold";
+	 font-size: 12px;
+	}
+	
+	p{
+	 font-family: "Normal";
+	 font-size: 20px;
+	}
+	
+	wrapper {
+	  width:800px;
+      display:block;
+      margin:auto;
+	}
+	.template{
+		display: grid;
+		grid-template-columns: 50% 16.67% 16.67% 16.67%;
+	}
+	.logonav{
+		text-align: center;
+		padding: 10px;
+		background-image: url("coffee-stained_texture.jpg");
+		background-size: cover;
+	}
+	.hover:hover {
+	    background-color: rgba(128, 102, 87);
+		color: white;
+	}
+	.nav {
+	    padding: 12px 0px;
+	}
+	footer{
+		 width:800px;
+		 margin:auto;
+		 text-align: center;
+	     background-color: rgba(194, 155, 133);
+	     padding: 10px 0px;
+		 background-image: url("coffee-stained_texture.jpg");
+		 background-size: cover;
+	}
+	.description{
+		text-align: center;
+		padding: 1px 10px;
+		background-image: url("Birthwoodplain.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.sectionleft {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 10px 0px;
+	}
+	
+	.sectionright {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 10px 0px;
+	}
+	
+	.imageright{
+	    background-image: url("OptionRight.png");
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.imageleft{
+	    background-image: url("OptionLeft.png");
+		background-size: cover;
+		background-position: center center;
+	}
+	.title{
+		text-align: center;
+		font-size: 33px;
+	}
+	hr{
+	  border: 1px solid black;
+	  width: 20%;
+	  border-radius: 5px;
+	}
+	.order{
+	  font-size: 33px;
+	}
+	.schedule{
+	  display: grid;
+	  grid-template-columns: 50% 50%;
+	  text-align: center;
+	  text-shadow: 1px 1px 1.5px;
+	}
+	.calander{
+        padding: 1px;
+	    background-image: url("Birthwoodplain.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+	a{
+	  background-color: rgba(128, 102, 87);
+	  text-decoration: none;
+	  padding: 20px;
+	  text-align: center;
+	  color: white;
+	  font-family: "Normal";
+	}
+	.button{
+	  padding: 10px 0px;
+	}
+	.right{
+	  text-align: right;
+	}
+	
+	a:hover{
+	  background-color: rgba(0,125,0,1.00);
+	  text-decoration: none;
+	  text-align: center;
+	  color: white;
+	  font-family: "Normal";
+	}
+	.none{
+	  background-color: rgba(0,125,0,0);
+	  color: black;
+	  font-family: "Bold";
+	}
+	.none:hover{
+	  background-color: rgba(0,125,0,0);
+	  font-family: "Bold";
+	}
+	
+	.heading{
+		font-size: 33px;	
+	}
+	.organized{
+	    padding: 10px 20px;
+		text-shadow: 1px 1px 1.5px;
+	}
+@media(min-width:1100px){
+
+	body{
+	  margin:0;
+	  padding:0;
+	  background-color: rgba(255, 230, 200, 1);
+	}	
+		
+    wrapper {
+	  width:1100px;
+      display:block;
+      margin:auto;
+	}
+		
+	.nav {
+	    padding: 22.5px 0px;
+	}
+		
+	.sectionleft {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 10px 0px;
+		float: left;
+	}
+	
+	.sectionright {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 10px 0px;
+	}
+		
+	footer{
+		 width:1100px;
+		 margin:auto;
+		 text-align: center;
+	     background-color: rgba(194, 155, 133);
+	     padding: 10px 0px;
+		 background-image: url("coffee-stained_texture.jpg");
+		 background-size: cover;
+	}
+	
+	.image{
+		width: 100%;
+		height: 100%;
+    }
+		
+	.order{
+		font-size: 25px;	
+	}
+	
+	.title{
+		text-align: center;
+		font-size: 25px;
+	}
+	
+	p.paragraph{
+	 font-family: "Normal";
+	 font-size: 15px;
+	}
+	
+	a{
+	  background-color: rgba(128, 102, 87);
+	  text-decoration: none;
+	  padding: 12.5px;
+	  text-align: center;
+	  font-size: 12.5px;
+	  color: white;
+	  font-family: "Normal";
+	}
+	section {
+      width:49.7%;  
+      display:inline-block;
+	  vertical-align: top;
+    }
+	.none{
+	  background-color: rgba(0,125,0,0);
+	  color: black;
+	  font-family: "Bold";
+	}
+	.none:hover{
+	  background-color: rgba(0,125,0,0);
+	  font-family: "Bold";
+	}
+	
+	.organized{
+	    padding: 0px 20px;
+		text-shadow: 1px 1px 1.5px;
+	}
+	
+	h1{
+	   font-family: "Bold";
+	}
+	.fixed{
+	   font-size: 20px;
+	}
+	
+	.time{
+       font-size: 15px;
+	}
+	
+	.descriptionparagraph{
+	   font-size: 15px;
+    }
+	
+	.copyright{
+	  font-size: 15px;
+	}
+	
+	.logo{
+	  width: 18%;
+	}
+}
+</style> 
+</head>
+<body>
+	<wrapper>
+	<header class="logonav">
+	  <div class="template">
+		 <div><img src="Logo.png" width="20%" alt="logo" style="float:left" class="logo"></div>
+		 <div class="hover nav"><h1><a href="#Explore" class="none fixed">Explore</a></h1></div>
+		 <div class="hover nav"><h1><a href="#Order" class="none fixed">Order</a></h1></div>
+         <div class="hover nav"><h1><a href="#SignIn" class="none fixed">Sign In</a></h1></div>
+	  </div>
+	</header>
+	<main>
+	<banner>
+	<div>
+	  <img src="Cafe Restaurant.jpg" width="100%" alt="restaurant">
+	  <div class="description" style="text-shadow: 1px 1px 1.5px">
+	  <h2 class="title" id="Explore">Welcome to my cafe restaurant</h2>
+	  <hr>
+	  <p class="descriptionparagraph">A café is typically an informal place that serves coffee, tea, pastries, sandwiches, and other simple foods. Many cafés have a comfortable atmosphere with tables and chairs where customers can sit, study, meet friends, or enjoy a drink. Some cafés also have outdoor seating called a sidewalk café.</p>
+	  <p class="descriptionparagraph">Most café restaurants serve a variety of hot and cold drinks, such as coffee, espresso, cappuccino, latte, tea, and fresh juices. They also offer light foods like sandwiches, salads, pastries, cakes, cookies, and sometimes breakfast dishes like eggs or toast. Some cafés also serve small lunch or dinner meals.</p>
+	  <p class="descriptionparagraph">The environment in a café restaurant is usually warm and welcoming. The furniture often includes small tables, comfortable chairs, and sometimes sofas. Decorations may include plants, artwork, and soft lighting to create a cozy feeling. Many cafés also play quiet music to make the space relaxing.</p>
+	  <p class="descriptionparagraph">Café restaurants are popular places for socializing, studying, and working. Students often bring laptops or books, and friends meet there to talk or enjoy coffee together. Some cafés also provide free Wi-Fi, making them a convenient place for people to work or browse the internet.</p><p class="button"><a href="#Order4">Learn More</a></p>
+	  </div>
+	</div>
+	</banner>
+	 <br>
+	  <div class="calander">
+	  <h2 class="title" style="text-shadow: 1px 1px 1.5px">Schedules</h2>
+      <hr> 
+	  <div class="schedule">
+	  <div><h3 class="title" style="margin: 10px;">Daily</h3><p class="time">Monday to Friday</p><p class="time">Saturday</p><p class="time">Sunday</p></div>
+	  <div><h3 class="title" style="margin: 10px;">Time</h3><p class="time">6AM - 9PM</p><p class="time">6AM - 12AM</p><p class="time">6AM - 6PM</p></div>
+	  </div>
+	  </div>
+	<br>
+	 <h1 class="title" id="Order" style="text-shadow: 1px 1px 1.5px">Pick your order if you want.</h1>
+	 <hr>
+	<div>
+	<section>
+	  <div class="sectionright imageright">
+	  <div><img src="Latte.jpg" width="400px" height="100%" alt="order" class="image"></div>
+	  <div class="organized"><h2 class="order">Latte Cafe</h2><p style="border-left: 6px solid; padding-left: 10px; border-radius: 10px; padding: 10 100px;" class="paragraph">Latte Café is a cozy coffee shop specializing in lattes—smooth, creamy espresso drinks with steamed milk. It offers a relaxing atmosphere for enjoying coffee, snacks, and spending time with friends.</p><p class="button"><a href="#Order1">Order Now</a></p></div>
+	  </div>
+	</section>
+	<section>
+	  <div class="sectionleft imageleft">
+	  <div class="organized"><h2 align="right" class="order">Coffee</h2><p align="right" style="border-right: 6px solid; padding-right: 10px; border-radius: 10px;" class="paragraph">Coffee is a dark, flavorful beverage made from roasted coffee beans. It usually has a rich aroma, bold taste, and mild bitterness. People often drink it hot or iced, sometimes adding milk, cream, or sugar.</p><p class="button right"><a href="#Order2">Order Now</a></p></div>
+	  <div><img src="Coffee.jpg" width="400px" height="100%" alt="order" style="float: right;" class="image"></div>
+	  </div>
+	</section>
+	</div>
+	<div>
+	<section>
+      <div class="sectionright imageright">
+	  <div><img src="Pastries.jpg" width="400px" height="100%" alt="order" class="image"></div>
+	  <div class="organized"><h2 class="order">Pastrie</h2><p style="border-left: 6px solid; padding-left: 10px; border-radius: 10px;" class="paragraph">Pastries are baked foods made from dough, usually using flour, butter, sugar, and sometimes eggs. They are often light, flaky, or soft in texture and can be either sweet or savory.</p><p class="button"><a href="#Order3">Order Now</a></p></div>
+	  </div>
+	</section>
+	<section>
+	  <div class="sectionleft imageleft">
+	  <div class="organized"><h2 align="right" class="order">Pancake</h2><p align="right" style="border-right: 6px solid; padding-right: 10px; border-radius: 10px;" class="paragraph">A pancake is a soft, flat, round food made from a simple batter of flour, eggs, milk, and sugar. It is cooked on a hot pan or griddle until it becomes golden brown on both sides.</p><p class="button right"><a href="#Order4">Order Now</a></p></div>
+	  <div><img src="Breakfast.jpg" width="400px" height="100%" alt="order" style="float: right;" class="image"></div>
+	  </div>
+	</section>
+	</div>
+	</main>
+	</wrapper>
+	<footer>
+	<p style="font-family: Bold; padding: 0px 5px;" class="copyright">© 2026, Erlin Guillen-Velasquez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+</body>
+</html>
