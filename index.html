@@ -1,1 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Avengers: Infinity War</title>
+	<style>
+		@font-face {
+			font-family: "heading";
+			src: url(Avengeance-YolO.ttf);
+		}
+		@font-face {
+			font-family: "paragraph";
+			src: url(Coolvetica-Rg.otf);
+		}
+		
+		body{
+		  margin:0;
+		  background-image:url("background.jpg");
+		  background-attachment: fixed;
+		  background-position: center center;
+		  background-size: cover;
+		}
+		wrapper{
+		  width: 1000px;
+		  display: block;
+		  margin: auto;
+	    }
+		header{
+		  background-color: rgba(255, 201, 41, 1);
+	      padding-bottom: 20px;
+		}
+		.template-nav{
+		  display: grid;
+		  grid-template-columns: 25% 25% 25% 25%;
+		}
+		.template-section{
+		  display: grid;
+		  grid-template-columns: 25% 2% 73%;
+		  margin: 10px 0px;
+		  background-color: rgba(0, 0, 0, 0.23);
+		  padding: 10px;
+		}
+		a{
+		  text-decoration: none;
+		  text-align: center;
+		  font-size: 30px;
+		  color: black;
+		  font-family: "heading";
+		}
+		h1, h2, h3{
+		  color: white;
+		  font-family: "heading";
+	      text-shadow: 2px 2px 5px black;
+		}
 
+		p, b{
+		  color: white;
+		  font-family: "paragraph";
+		  text-shadow: 2px 2px 5px black;
+		}
+		ul{
+		  color: white;
+		  font-family: "paragraph";
+		  text-shadow: 2px 2px 5px black;
+		}
+		footer{
+		  background-color: rgba(255, 201, 41, 1);
+		  padding: 20px;
+		  text-align: center;
+		}
+		h1.cast{
+		  text-align: center;
+		}
+		.cast-grid {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+           gap: 20px;
+        }
+		.cast-member {
+           transition: transform 0.3s ease, filter 0.3s ease;
+           cursor: pointer;
+        }
+
+        .cast-member:hover {
+          transform: scale(1.05); 
+          filter: drop-shadow(0 0 10px #f0c33c);
+        }
+		
+	    .scalefade {
+           transition: transform 0.3s ease, filter 0.3s ease;
+           cursor: pointer;
+        }
+		.scalefade:hover {
+          transform: scale(1.05); 
+          filter: drop-shadow(0 0 10px #f0c33c);
+        }
+		
+	    .scalefadea {
+           transition: transform 0.3s ease, filter 0.3s ease;
+           cursor: pointer;
+        }
+		
+		.scalefadea:hover {
+          transform: scale(1.05); 
+          filter: drop-shadow(0 0 10px #f0c33c);
+        }
+		.time-btn {
+           background: transparent;
+           border: 2px solid rgba(255, 201, 41, 1);
+           color: #f0c33c;
+           padding: 10px 20px;
+           cursor: pointer;
+           transition: 0.3s;
+         }
+
+        .time-btn:hover {
+           background-color: rgba(255, 201, 41, 1);
+           color: #000;
+         }
+
+.buy-now {
+  background: rgba(255, 201, 41, 1);;
+  color: #000;
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+		.review{
+			background-color: rgba(0, 0, 0, 0.23);
+		    padding: 10px;
+		}
+	</style>
+</head>
+<body>
+  <wrapper>
+  <header class="scalefade">
+   <img src="InfinityWar_2016.webp" width="48%" alt="logo" style="padding: 25px 250px">
+  <div class="template-nav">
+   <a href="#home" class="scalefade">Home</a>
+   <a href="#cast" class="scalefade">Casts</a>
+   <a href="#review" class="scalefade">Review</a>
+   <a href="#ticket" class="scalefade">Tickets</a>
+  </div>
+  </header>
+  <main>
+     <iframe style="border: none;" width="100%" height="315" class="scalefade" src="https://www.youtube.com/embed/6ZfuNTqbHE8?controls=0&mute=1&autoplay=1&loop=1"></iframe>
+  <div class="template-section scalefade">
+	<div><img src="movie.jpg" width="100%" alt="movie"></div>
+	<p></p>
+    <div><h1>About this movie</h1><p>The film follows the intergalactic despot Thanos as he attempts to collect all six Infinity Stones—artifacts of unimaginable power that control different aspects of existence: Space, Reality, Power, Soul, Mind, and Time.</p><ul><li><b>Thanos's Goal:</b> He believes the universe is overpopulated and its resources are infinite. His "solution" is to use the stones to wipe out half of all life in the universe with a single snap of his fingers to restore "balance."</li><br><li><b>The Heroes' Stand:</b> For the first time, the Avengers (Iron Man, Captain America, Thor, etc.) must join forces with the Guardians of the Galaxy, Doctor Strange, and the forces of Wakanda to stop him.</li><br><li><b>The Stakes:</b> The movie is famous for its high stakes and "dark" ending, where the heroes face their  most devastating defeat yet.</li></ul>
+    </div>
+  </div>
+  <br>
+  <h1 class="scalefade" style="text-align: center" id="cast">Cast</h1>
+  <div class="cast-grid">
+   <section class="cast-member">
+	  <img src="Robert_Downey.png" width="100%" alt="cast">
+	  <p>Robert Downey Jr. as Tony Stark or Iron Man</p>
+   </section>
+   <section class="cast-member">
+	  <img src="Chris_Evans.png" width="100%" alt="cast">
+	  <p>Chris Evans as Steve Rogers or Captain America</p>
+   </section>
+   <section class="cast-member">
+	  <img src="chris_hemsworth.png" width="100%" alt="cast">
+	  <p>Chris Hemsworth as Thor</p>
+   </section>
+   <section class="cast-member">
+	  <img src="josh_brolin.png" width="100%" alt="cast">
+	  <p>Josh Brolin as Thanos</p>
+   </section>
+  </div>
+	<br>
+	 <h1 class="scalefade" style="text-align: center" id="review">Reviews</h1>
+  <div class="scalefade review">
+	<h2>The Critics Take</h2>
+	 <p><strong>"A Cinematic Achievement of Infinite Proportions"</strong></p>
+	 <p>"Avengers: Infinity War is a massive, high-stakes spectacle that manages to balance dozens of characters without ever losing its emotional core. It is a bold, dark, and thrilling ride that changes the Marvel Cinematic Universe forever</p>
+	 <p>— Rotten Tomatoes Score: 85%"</p>
+	<br>
+	<h2>The Fans Perspective</h2>
+	 <p>"Thanos is the best villain yet!"</p>
+	 <p>"I have never seen a movie theater so quiet at the end. The action is incredible, especially the battle in Wakanda, but it is the ending that stays with you. A must-watch for any superhero fan!"</p>
+	 <p>— User Rating: ⭐⭐⭐⭐⭐</p>
+  </div>
+  </main>
+  <footer class="scalefade"><p style="color: black; text-shadow: none;">© 2026, Erlin Guillen Velasquez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+ </wrapper>
+</body>
+</html>
